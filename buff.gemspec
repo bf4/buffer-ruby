@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Buff is an API Wrapper Gem for Bufferapp.com's API}
   gem.summary       = %q{Buff is an API Wrapper Gem for Bufferapp.com's API}
   gem.homepage      = "http://github.com/zph/buff"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
